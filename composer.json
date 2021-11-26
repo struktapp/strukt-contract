@@ -1,7 +1,7 @@
 {
     "name": "strukt/contract",
     "description": "Abstract Interfaces & Classes",
-    "type": "metapackage",
+    "type": "package",
     "require": {
         "strukt/commons": "v1.0.4-alpha"
     },
