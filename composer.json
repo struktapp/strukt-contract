@@ -1,0 +1,21 @@
+{
+    "name": "strukt/contract",
+    "description": "Abstract Interfaces & Classes",
+    "type": "metapackage",
+    "require": {
+        "strukt/commons": "v1.0.4-alpha"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Strukt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pitsolu",
+            "email": "pitsolu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
