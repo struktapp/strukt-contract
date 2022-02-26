@@ -3,7 +3,7 @@
     "description": "Abstract Interfaces & Classes",
     "type": "package",
     "require": {
-        "strukt/commons": "v1.0.4-alpha"
+        "strukt/commons": "v1.0.5-alpha"
     },
     "license": "MIT",
     "autoload": {
