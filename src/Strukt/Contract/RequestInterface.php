@@ -2,7 +2,7 @@
 
 namespace Strukt\Contract;
 
-class RequestInterface{
+interface RequestInterface{
 
 	public function setUser(UserInterface $user);
 	public function getUser();
