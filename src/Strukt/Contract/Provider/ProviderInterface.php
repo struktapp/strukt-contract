@@ -1,6 +1,6 @@
 <?php
 
-namespace Strukt\Contract;
+namespace Strukt\Contract\Provider;
 
 use Strukt\Http\Response;
 use Strukt\Http\Request;

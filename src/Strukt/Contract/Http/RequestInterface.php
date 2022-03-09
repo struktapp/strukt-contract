@@ -1,6 +1,8 @@
 <?php
 
-namespace Strukt\Contract;
+namespace Strukt\Contract\Http;
+
+use Strukt\Contract\UserInterface;
 
 interface RequestInterface{
 

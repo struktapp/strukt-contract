@@ -1,6 +1,6 @@
 <?php
 
-namespace Strukt\Contract;
+namespace Strukt\Contract\Http;
 
 interface ResponseInterface{
 
