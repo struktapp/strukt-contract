@@ -3,8 +3,8 @@
     "description": "Abstract Interfaces & Classes",
     "type": "package",
     "require": {
-	"php": ">=7.4",
-        "strukt/commons": "v1.0.6-alpha"
+	   "php": ">=7.4",
+        "strukt/commons": "dev-master"
     },
     "license": "MIT",
     "autoload": {
