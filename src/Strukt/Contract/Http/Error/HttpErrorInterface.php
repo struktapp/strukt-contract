@@ -1,6 +1,6 @@
 <?php
 
-namespace Strukt\Http\Error;
+namespace Strukt\Contract\Http\Error;
 
 Interface HttpErrorInterface{
 
