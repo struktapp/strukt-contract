@@ -4,7 +4,7 @@
     "type": "package",
     "require": {
 	   "php": ">=7.4",
-        "strukt/commons": "v1.0.8-alpha"
+        "strukt/commons": "v1.0.9-alpha"
     },
     "license": "MIT",
     "autoload": {
