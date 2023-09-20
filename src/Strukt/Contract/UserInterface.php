@@ -4,5 +4,5 @@ namespace Strukt\Contract;
 
 interface UserInterface{
 
-	public function setUsername($username);
+	public function setUsername(string $username);
 }
