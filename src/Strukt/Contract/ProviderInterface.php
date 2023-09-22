@@ -1,6 +1,6 @@
 <?php
 
-namespace Strukt\Contract\Provider;
+namespace Strukt\Contract;
 
 interface ProviderInterface{
 
