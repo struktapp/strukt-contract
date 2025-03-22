@@ -2,7 +2,13 @@
 
 namespace Strukt\Contract;
 
+/**
+ * @author Moderator <pitsolu@gmail.com>
+ */
 interface ProviderInterface{
 
- 	public function register();
+	/**
+	 * @return mixed
+	 */
+ 	public function register():mixed;
 }

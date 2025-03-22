@@ -2,8 +2,21 @@
 
 namespace Strukt\Contract\Http;
 
+/**
+ * @author Moderator <pitsolu@gmail.com>
+ */
 interface SessionInterface{
 
- 	public function get(string $key);
- 	public function set(string $key, $val);
+	/**
+	 * @param $key
+	 * 
+	 * @return mixed
+	 */
+ 	public function get($key):mixed;
+
+ 	/**
+ 	 * @param $key
+ 	 * @param $val
+ 	 */
+ 	public function set($key, $val):void;
 }

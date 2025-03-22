@@ -2,7 +2,15 @@
 
 namespace Strukt\Contract;
 
+/**
+ * @author Moderator <pitsolu@gmail.com>
+ */
 interface UserInterface{
 
-	public function setUsername(string $username);
+	/**
+	 * @param string $username
+	 * 
+	 * @return void
+	 */
+	public function setUsername(string $username):void;
 }
