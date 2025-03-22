@@ -8,7 +8,7 @@ namespace Strukt\Contract;
 interface ProviderInterface{
 
 	/**
-	 * @return mixed
+	 * @return void
 	 */
- 	public function register():mixed;
+ 	public function register():void;
 }
