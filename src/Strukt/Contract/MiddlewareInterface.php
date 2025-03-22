@@ -4,7 +4,7 @@ namespace Strukt\Contract;
 
 use Strukt\Contract\Http\RequestInterface;
 use Strukt\Contract\Http\ResponseInterface;
-use Strukt\Http\Response\Plain
+use Strukt\Http\Response\Plain;
 
 /**
  * @author Moderator <pitsolu@gmail.com>
