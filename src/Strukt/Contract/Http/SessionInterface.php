@@ -12,7 +12,7 @@ interface SessionInterface{
 	 * 
 	 * @return mixed
 	 */
- 	public function get($key):mixed;
+ 	public function get($key, $default = null):mixed;
 
  	/**
  	 * @param $key
