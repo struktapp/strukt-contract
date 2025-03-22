@@ -8,15 +8,18 @@ namespace Strukt\Contract\Http;
 interface SessionInterface{
 
 	/**
-	 * @param $key
+	 * @param string $key
+	 * @param mixed $default
 	 * 
 	 * @return mixed
 	 */
- 	public function get($key, $default = null):mixed;
+ 	public function get(string $key, mixed $default = null):mixed;
 
  	/**
- 	 * @param $key
- 	 * @param $val
+ 	 * @param string $key
+ 	 * @param string $val
+ 	 * 
+ 	 * @return void
  	 */
- 	public function set($key, $val):void;
+ 	public function set(string $key, mixed $val): void;
 }
