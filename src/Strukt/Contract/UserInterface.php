@@ -12,5 +12,5 @@ interface UserInterface{
 	 * 
 	 * @return void
 	 */
-	public function setUsername(string $username):void;
+	public function setUsername(?string $username):void;
 }
